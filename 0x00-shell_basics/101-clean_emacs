@@ -1,0 +1,2 @@
+#!/bin/bash
+echo main.c main.c~ Makefile~
