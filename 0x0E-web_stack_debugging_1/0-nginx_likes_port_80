@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#script to restart nginx and to link sites
+
+sudo rm /etc/nginx/sites-enabled/default
+In -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx start
