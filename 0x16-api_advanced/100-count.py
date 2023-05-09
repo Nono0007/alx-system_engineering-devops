@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Count word! """
+""" Count it! """
 from requests import get
 
 REDDIT = "https://www.reddit.com/"
